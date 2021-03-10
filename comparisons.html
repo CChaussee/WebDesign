@@ -2,17 +2,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Latitude v Cloudiness</title>
+    <title>Comparisons</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 <body>
+        <!-- Start of navbar -->
         <nav class="navbar navbar-default">
                 <div class="container-fluid navbar-custom">
           
-                  
+                  <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="row">
                     <div class="navbar-header">
                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,16 +27,16 @@
                       </div>
                     </div>
           
-                    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav navbar-right navbar-right-custom">
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                           <ul class="dropdown-menu">
-                              <li><a href="temp.html">Max Temperature</a></li>
-                              <li><a href="humidity.html">Humidity</a></li>
-                              <li><a href="cloudiness.html">Cloudiness</a></li>
-                              <li><a href="windspeed.html">Wind Speed</a></li>
+                                <li><a href="temp.html">Max Temperature</a></li>
+                                <li><a href="humidity.html">Humidity</a></li>
+                                <li><a href="cloudiness.html">Cloudiness</a></li>
+                                <li><a href="windspeed.html">Wind Speed</a></li>
                           </ul>
                         </li>
                         <li><a href="comparisons.html">Comparison</a></li>
@@ -45,56 +46,41 @@
                   </div>
                 </div>
               </nav>
-        <div id="wrap">    
-          <div class="container">
-            <section class="row">
-              <div class="col-md-8">
-                <div class="box">
-                <article class="description-content">
-                  <h1 class="description-header">Latitude vs. Cloudiness</h1>
-                  <hr class="description-hr"/>
-                  <img src="Cloudiness.png" alt="" id="description-image" class="img-responsive pull-left inline"/>
-                  <p class="float-right">Cloudiness does not have a correlation with latitude.</p>
-                </article>
-              </div>
-              </div>
-              
-              <div class="col-md-4">
-
-                <div class="img-box">
-                <section id="imageNav-area">
-                    <div class="imageNav-content">
-                        <h2 class="imageNav-header">Visualizations</h2>
-                    <hr />
-                    <div id="images">
-                        <a href="temp.html"><img src="Temp.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
-                        <a href="humidity.html"><img src="Humidity.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
-                        <a href="cloudiness.html"><img src="Cloudiness.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
-                        <a href="windspeed.html"><img src="Wind.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
-                  </div>
+            <div id="wrap">
+              <div class="container">
+                    <section class="row">
+                      
+                      <div class="col-md-12">
+                        <section id="imageNav-area">
+                            <div class="imageNav-content">
+                                <h1 class="description-header">Comparisons</h1>
+                            <hr />
+                            <div id="images">
+                                <a href="temp.html"><img src="Latitude_vs_Temperature.jpg" alt="Latitude vs. Max Temperature" class="imageNav-vis"></a>
+                                <a href="humidity.html"><img src="Latitude_vs_Humidity.jpg" alt="Latitude vs. Humidity" class="imageNav-vis"></a>
+                                <a href="cloudiness.html"><img src="Latitude_vs_Cloudiness.jpg" alt="Latitude vs. Cloudiness" class="imageNav-vis"></a>
+                                <a href="windspeed.html"><img src="Latitude_vs_WindSpeed.jpg" alt="Latitude vs. Wind Speed" class="imageNav-vis"></a>
+                          </div>
+                        </div>
+                      </section>           
+                    </div>
+                  </section>
                 </div>
-              </section>
-            </div>
-             
-    
-            </div>
-          </section>
-        </div>
-        </div>
+                </div>
+                
 
-       
-        <div id="footer">
+         <div id="footer">
             <div class="container">
-              <p class="footer"></p>
+              <p class="footer">Felicia Hatchett--UT Data Analysis and Visualization</p>
       
             </div>
           </div>
-      
- 
-   
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+            
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
