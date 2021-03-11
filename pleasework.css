@@ -21,7 +21,7 @@
 }
 
 .description-header{
-    color: #000000;
+    color: #1c4e12;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 35px;
     font-weight: bold;
@@ -34,7 +34,7 @@ img{
 #imageNav-area {
     width: 100%;
     padding: 30px 30px 43px;
-    background-color: rgba(158, 116, 116, 0.836);
+    background-color: rgba(110, 110, 110, 0.836);
   }
 
 .imageNav-header {
@@ -42,7 +42,7 @@ img{
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 25px;
     font-weight: bold;
-    color: #000000;
+    color: #1c4e12;
   }
   
 .imageNav-photo {
@@ -61,12 +61,12 @@ img{
   }
 
 html, body{
-    background-color: rgba(158, 116, 116, 0.836);
+    background-color: rgba(110, 110, 110, 0.836);
     height: 100%;
 }
 
 .col-md-12{
-    background-color: rgba(158, 116, 116, 0.836);
+    background-color: rgba(110, 110, 110, 0.836);
     padding: 10px 10px 10px 10px;
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +74,7 @@ html, body{
 
 .box{
     padding:  25px 25px 25px 25px;
-    background-color: rgba(158, 116, 116, 0.836);
+    background-color: rgb(255, 255, 255);
     overflow: auto;
     height: auto;
 }
@@ -105,11 +105,8 @@ tr, th, td{
 
 #footer {
   height: 60px;
-  background-color: rgb(158, 116, 116, 0.8360);
+  background-color: rgba(110, 110, 110, 0.836);
 }
-@media only screen and (max-width: 900px) {
-    body {
-      background-color: rgb(0, 0, 0);
-    }
+
   
-  }
+
